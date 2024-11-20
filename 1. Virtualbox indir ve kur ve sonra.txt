@@ -1,0 +1,16 @@
+1. Virtualbox indir ve kur ve sonrasında Extensian pack kur.
+       https://www.virtualbox.org/wiki/Downloads
+    2. Lubuntu kur. (24.04.1 veya 24.10)
+       https://lubuntu.me/downloads/  ve https://www.youtube.com/watch?v=tOfmkv_Cqww
+    3. Ollama sitesinden curl ile ollayı kur.
+       https://ollama.com/download ve curl -fsSL https://ollama.com/install.sh | sh ile terminalde kur.
+    4. Ollamaya mistral modelini kur.
+       Lubuntu Qtterminalde ollama run mistral:latest ile kur. Terminalden soru sor cevap almayı dene /bye ile çıkabilirsin.
+    5. Vscode kur.
+       https://code.visualstudio.com/download bu adresten .deb uzantılı paketi indir. Muhtemelen Downloads dizini altında olur.
+       Terminalde cd Downlods/ ile ilgili dizine git.  Daha sonra sudo dpkg -i code_1.94.2-1728494015_amd64.deb ile kurulumu tamamla.
+    6. Vscode’ta herkes font size 20 yapacak.
+    7. Hüseyin hocanın github’taki .py dosyasını çalıştır.
+       https://github.com/HuseyinPARMAKSIZ/YapayZeka/blob/main/snmp-tkinter.py
+       Çalışmazsa terminalden sudo apt install python3 python3-pip python3-venv python3-tk
+    8. Bu kodta soru sayısı 2’den 5’e çıkartılacak, ayrıca veri tabanı ve web uygulama konuları eklenecek. Buda derste öğrenmeye çalıştığımız temel yapay zeka modlei harici bir platformdan destek alınabilir. Parası olan $ verip 4-5 arkadaş claude veya chatgpt :/
